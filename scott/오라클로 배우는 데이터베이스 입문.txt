@@ -51,7 +51,7 @@
 - DDL(Data Definition Language)
     - RDBMS 내 데이터 관리를 위해 테이블 포함한 여러 객체를 생성, 수정, 삭제하는 명령어
 - TCL(Transaction Control Language)
-    - 트랜재션 데이터의 영구 저장, 취소 등과 관련된 명령어
+    - 트랜잭션 데이터의 영구 저장, 취소 등과 관련된 명령어
 - DCL(Data Control Language)
     - 데이터 사용 권한과 관련된 명령어
     

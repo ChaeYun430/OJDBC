@@ -94,22 +94,3 @@ SELECT * FROM EMP_HW;
 DROP TABLE EMP_HW;
 SELECT * FROM EMP_HW;
 
---<<<데이터 사전>>>
---데이터베이스 테이블 = 사용자 테이블(Normal Table) + 데이터 사전(Base Table)
---사용자 테이블: DB를 통해 관리할 데이터를 저장하는 테이블
---데이터 사전: DB를 구성하고 운영하는 데 필요한 모든 정보를 저장하는 특수한 테이블
---DB생성 지점에 자동으로 생성
---DB의 메모리, 성능, 사용자, 권한, 객체 등
-
---Data Dictionary View
---USER_ : 현재 DB에 접속한 사용자가 소유한 객체 정보
---ALL_ : 현재 DB에 접속한 사용자가 소유한 객체 또는 다른 사용자가 소유한 객체 중 사용 허가를 받은 객체 (사용 가능한 모든 객체)
---DBA_ : DB관리를 위한 정보(SYSTEM, SYS 사용자만 열람 가능)
---V$_ : DB 성능 관련 정보(X$_ 테이블의 뷰) 
-
---SCOTT계정에서 사용 가능한 BASE TABLE
-SELECT * FROM DICT;
-SELECT * FROM DICTIONARY;
---SCOTT 계정이 가지고 있는 테이블 이름
-SELECT TABLE_NAME FROM USER_TABLES;
---
